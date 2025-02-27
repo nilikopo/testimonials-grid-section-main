@@ -73,6 +73,9 @@ h2{
     gap: var(--gap-card);
 
     color: var(--color-grey200);
+
+    box-shadow: 44px 44px 76px 0px rgba(34, 60, 80, 0.2);
+
 }
 .author{
     display: flex;
@@ -147,5 +150,8 @@ h2{
     }
     .card-quotes{
         display: none;
+    }
+    .card{
+        box-shadow: none;
     }
 }
